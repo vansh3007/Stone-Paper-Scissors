@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    text-align: center;
+    background-color: #C0F8D1;
+}
+.main{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+.player1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 88vh;
+    width: 80vh;
+    background-color: #B287A3;
+
+}
+.player2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 88vh;
+    width: 80vh;
+    background-color:#B287A3;}
+    
+.display{
+    width:50vmin;
+    height:50vmin ;
+    background-image: url(gif.gif);
+    background-size: cover;
+    display: flex;
+    align-self:center;
+    justify-content: center;
+}
+.screen{
+    width:60vmin;
+    height:60vmin ;
+    background-image: url(gif.gif);
+    background-size: cover;
+
+}
+.buttons{
+    width:40vmin;
+    height:15vmin ;
+    background-color:#7E4E60;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn{
+    height: 12vmin;
+    width: 12vmin;
+}
+h2{
+    width: 80vh;
+}
+#btn1{
+    background-image: url("stone.png");
+    background-size: cover;
+}
+#btn2{
+    background-image: url("paper.png");
+    background-size: cover;
+}
+#btn3{
+    background-image: url("scissors.png");
+    background-size: cover;
+
+}
+.points{
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-size: 5vmin;
+}
+.point-btn{
+    width: 5vmin;
+    height: 5vmin;
+    font-size: 4vmin;
+    background-color: #fff;
+    color: #000000;
+}
+#reset{
+    height: 10vmin;
+    width: 20vmin;
+    font-size: 3vmin;
+    background-color: #000000;
+    color: beige;
+    border-radius: 2vmin;
+    
+}
+#para{
+    width: 50vmin;
+    height: 70vmin;
+
+    color: chocolate;
+    font-size: 10vmin;
+}
+
+#h1{
+    font-size: 5vmin;
+}
